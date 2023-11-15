@@ -10,7 +10,7 @@ const listeNews = () => {
       <a class="group block w-full h-96" href="/news/?id=${article.id}">
         <div class="bg-slate-600 rounded-lg p-3 h-full col-span-1 hover:shadow-lg hover:shadow-[0px_0px_0px_5px_rgba(255,255,255,0.8)] opacity-70 hover:opacity-100 transition">
           <div class="h-2/4 w-full mx-auto">
-            <img src="/public/${article.img}" class="object-cover h-full w-full rounded-t-md">
+            <img src="${article.img}" class="object-cover h-full w-full rounded-t-md">
           </div>
           <div class="my-5">
             <h5 class="group-hover:text-sky-500 transition text-lg mb-2">${article.title}</h5>
