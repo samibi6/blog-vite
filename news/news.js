@@ -1,7 +1,8 @@
 import "../style.css";
+import {nav} from "../nav";
 
 document.querySelector("#app").innerHTML = `
   <div>
-    HELLO NEWS
+    ${nav}
   </div>
 `;
